@@ -1,73 +1,165 @@
-💍 Projeto Joias
+  💎 Belíssima Joias – Loja Virtual
 
-Este projeto é uma aplicação frontend em React desenvolvida para simular um site de joias, contendo página inicial, depoimentos, localização e um carrinho de compras utilizando Context API. O foco do projeto é organização de componentes, reutilização de código e boas práticas em React.
+  ```
 
-🚀 Tecnologias Utilizadas
+Aplicação web desenvolvida para apresentar uma **loja virtual de joias**, com foco em **design moderno**, **experiência do usuário** e **componentização frontend**. O projeto é ideal para portfólio, demonstrando organização de código, layout responsivo e deploy em produção.
 
-React.js
+🔗 **Demo online:**  
+👉 https://belissima-joias.vercel.app/
 
-Vite (ambiente de desenvolvimento)
+---
 
-JavaScript (ES6+)
+## 🚀 Tecnologias Utilizadas
 
-Context API (gerenciamento de estado global)
+- ⚛️ React.js  
+- ⚡ Vite  
+- 🟨 JavaScript (ES6+)  
+- 🎨 CSS  
+- 🟢 Node.js  
+- 📦 npm  
+- ☁️ Vercel (deploy)
 
-Styled Components / CSS
+---
 
-ESLint (padronização de código)
+## 🎯 Objetivo do Projeto
 
-🧩 Funcionalidades
+Demonstrar habilidades em:
 
-Página inicial com apresentação das joias
+- Criação de interfaces modernas e responsivas
+- Componentização com React
+- Organização de layout para e-commerce
+- Estruturação de projetos frontend com Vite
+- Deploy de aplicações web em produção
 
-Exibição de produtos com imagens
+---
 
-Carrinho de compras funcional
 
-Gerenciamento de estado global com Context API
 
-Página de depoimentos
+## 📂 Estrutura de Pastas
 
-Página de localização
+bash
+belissima-joias/
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── ProductCard.jsx
+│   │   └── Footer.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
 
-Componentização para melhor manutenção
 
-🛒 Carrinho de Compras
+🔧 Pré-requisitos
+Antes de iniciar, você precisa ter instalado:
 
-O carrinho é gerenciado através do CarrinhoContext, permitindo:
+🟢 Node.js (versão 18 ou superior recomendada)
 
-Adicionar itens
+📦 npm
 
-Remover itens
+🌱 Git
 
-Compartilhar estado entre páginas
+Verifique se está tudo instalado:
 
-🎨 Estilização
+bash
+Copiar código
+node -v
+npm -v
+📥 Como Clonar o Projeto
+bash
+Copiar código
+git clone https://github.com/seu-usuario/belissima-joias.git
+cd belissima-joias
+Substitua o link acima pelo repositório correto, caso necessário.
 
-Estilos globais centralizados em globalStyled.js
+📦 Instalação das Dependências
+Dentro da pasta do projeto, execute:
 
-Organização de estilos por componentes e páginas
+bash
+Copiar código
+npm install
+▶️ Como Iniciar o Projeto
+Após instalar as dependências, execute:
 
-Layout simples e responsivo
+bash
+Copiar código
+npm run dev
+Em seguida, acesse no navegador:
 
-📌 Objetivo do Projeto
+👉 http://localhost:5173
 
-Este projeto foi desenvolvido com fins educacionais e de portfólio, visando demonstrar conhecimentos em:
+🛍️ Funcionalidades
+Exibição de produtos (joias)
 
-React moderno
+Cards de produtos com imagem, nome e preço
 
-Organização de pastas
+Layout elegante e responsivo
 
-Context API
+Componentes reutilizáveis
 
-Componentização
+Navegação simples e intuitiva
 
-Boas práticas de frontend
+
+🎨 Customização
+Você pode personalizar facilmente:
+
+Produtos e informações exibidas
+
+Imagens das joias
+
+Cores e estilos do layout
+
+Estrutura dos componentes
+
+
+📁 Principais arquivos para customização:
+
+bash
+Copiar código
+src/components/
+src/assets/
+🧠 Conceitos Aplicados
+⚛️ React Components
+
+🔁 Props
+
+🗂️ Organização de pastas
+
+🖼️ Importação de assets
+
+⚡ Vite como bundler
+
+📦 Build para Produção
+Para gerar a versão de produção do projeto:
+
+bash
+Copiar código
+npm run build
+Os arquivos finais serão gerados na pasta:
+
+bash
+Copiar código
+dist/
+🌐 Deploy
+O projeto foi publicado utilizando a Vercel, com integração direta ao repositório GitHub para deploy automático a cada atualização.
+
+🧪 Testes
+Este projeto não possui testes automatizados no momento.
 
 👨‍💻 Autor
-
 Leonardo Schloesser Pinheiro
-📍 Florianópolis - SC
-💼 Desenvolvedor Frontend / Web
+Desenvolvedor Full Stack
+📍 Florianópolis – SC
+
 🔗 GitHub: https://github.com/devwebschloesser
 🔗 LinkedIn: https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/
